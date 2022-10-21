@@ -1,0 +1,189 @@
+body{
+    background-image: url(images/airplane\ landing.webp);
+    background-size: cover;
+
+}
+h1{
+    color: red;
+    font-family: Arial;
+    padding: 0px 10px 0px 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-width: 60px;
+    max-width: 300px;
+    white-space: nowrap;
+}
+h4{
+    padding: 0px 10px 0px 10px;
+    margin-top: 0%;
+    max-width: 300px;
+    font-family: Arial;
+    white-space: nowrap;
+}
+button{
+    box-sizing: content-box;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+.buttons{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoAndText{
+    display: inline-flex;
+}
+
+.text{
+    display: block;
+}
+
+.topBarButtons{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.responsive {
+    width: 100%;
+    max-width: 120px;
+    min-width: 30px;
+    height: auto;
+  }
+.cards{
+    max-width: 20em;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+.bottomBar{
+    background-color: #17396F;
+    padding: 1%;
+}
+#disclaimer{
+    color: white;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 850px) {
+    .topBar{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .logoAndText{
+        padding-left: 8%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .topBar{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .topBar{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .topBar{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .topBar{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .topBar{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .topBar{
+        width: 75%;
+    }
+    .buttons{
+        width: 30px;
+        height: 30px;
+    }
+    button{
+        padding: 10px 10px;
+        font-size: 12px;
+        margin: 4px 4px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    h1{
+        font-size: 150%;
+    }
+    h4{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .topBar{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .topBar{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 380px) {
+    .topBar{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .topBarButtons{
+        margin-left: 10%;
+    }
+    .buttons{
+        padding: 5px;
+        width: 20px;
+        height: 20px;
+    }
+    button{
+        padding: 6px 6px;
+        font-size: 9px;
+        margin: none;
+    }
+    
+}
+@media screen and (max-width: 360px) {
+    .topBar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cards{
+        width: 80%;
+        height: 80%;
+    }
+}
